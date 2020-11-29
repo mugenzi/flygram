@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap Charts Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    
+    
+    	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is social network html5 template available in themeforest......" />
+		<meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+		<meta name="robots" content="index, follow" />
+		<title>Emino Janvier (@isabanej) • FlyGram photos and videos</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />        
+    <link rel="stylesheet" href="css/jquery.scrollbar.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link href="css/emoji.css" rel="stylesheet">
+    <!--Google Webfont-->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700' rel='stylesheet' type='text/css'>
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+    
+    
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+   <center> <h1>Fygram Charts • <small>Demonstrating a set of Fygram Charts</small></h1></center>
+</div>
+
+<!-- Bootstrap Charts - START -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Line Series</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="chart1"></div>
+                </div>
+            </div>
+        </div> 
+</div>
+
+<!-- you need to include the shieldui css and js assets in order for the charts to work -->
+<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+<script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        var data1 = [12, 3, 4, 2, 12, 3, 4, 17, 22, 34, 54, 67];
+        var data2 = [3, 9, 12, 14, 22, 32, 45, 12, 67, 45, 55, 7];
+        var data3 = [23, 19, 11, 134, 242, 352, 435, 22, 637, 445, 555, 57];
+        var data4 = [13, 19, 112, 114, 212, 332, 435, 132, 67, 45, 55, 7];
+            
+        $("#chart1").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "line",
+                data: data1
+            }]
+        });
+
+        $("#chart2").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "polarbar",
+                data: data2
+            }]
+        });
+
+        $("#chart3").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "area",
+                data: data3
+            }]
+        });
+
+        $("#chart4").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "stepline",
+                data: data4
+            }]
+        });
+    });
+</script>
+<!-- Bootstrap Charts - END -->
+
+</div>
+ <!-- Footer
+    ================================================= -->
+     <footer id="footer">
+      <div class="container">
+      	<div class="row">
+          <div class="footer-wrapper">
+            <div class="col-md-3 col-sm-3">
+              <a href=""><!--<img src="images/logo-black.png" alt="" class="footer-logo" />--></a>
+              <ul class="list-inline social-icons">
+              	<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h6>ABOUT US</h6>
+             <!-- <ul class="footer-links">
+                <li><a href="">Signup</a></li>
+                <li><a href="">login</a></li>
+                <li><a href="">Explore</a></li>
+                <li><a href="">Finder app</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Language settings</a></li>
+              </ul>-->
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h6>SUPPORT</h6>
+              <!--<ul class="footer-links">
+                <li><a href="">Business signup</a></li>
+                <li><a href="">Business login</a></li>
+                <li><a href="">Benefits</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Advertise</a></li>
+                <li><a href="">Setup</a></li>
+              </ul>-->
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h6>PRESS</h6>
+             <!-- <ul class="footer-links">
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Help</a></li>
+              </ul>-->
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <h6>Contact Us</h6>
+               <!-- <ul class="contact">
+                	<li><i class="icon ion-ios-telephone-outline"></i>+1 (234) 222 0754</li>
+                	<li><i class="icon ion-ios-email-outline"></i>info@rwandamum-Team.com</li>
+                  <li><i class="icon ion-ios-location-outline"></i>228 Park Ave S NY, USA</li>
+                </ul>-->
+            </div>
+          </div>
+      	</div>
+      </div>
+      <div class="copyright">
+        <p>copyright @RwandaMUM-Team 2020. All rights reserved</p>
+      </div>
+		</footer>
+<!-- End of Footer-->
+</body>
+</html>

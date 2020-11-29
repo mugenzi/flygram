@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Mugenzi
+Build-Jdk: 14.0.1
+Implementation-Title: StudentMIS
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: rw.student
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/StudentMIS
+Created-By: Maven Integration for Eclipse
+
